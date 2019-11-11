@@ -16,7 +16,8 @@ int string2int(string x){
 }
 
 bool valid(const smatch &m) {
-    if((string2int(m[1]) <=255) && (string2int(m[3]) <=255) && (string2int(m[5]) <=255)&&(string2int(m[7]) <=255)) {
+    if((string2int(m[1]) <=255) && (string2int(m[3]) <=255) 
+        && (string2int(m[5]) <=255)&&(string2int(m[7]) <=255)) {
         return true;
     }
     return false;
